@@ -15,7 +15,7 @@ const IndexPage = () => (
          <hr />
       </header>
 
-      <main>
+      <div>
 
          <Bio />
 
@@ -26,7 +26,7 @@ const IndexPage = () => (
          <Tech />
 
          <Contact />
-      </main>
+      </div>
    </div>
 );
 
