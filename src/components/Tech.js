@@ -4,7 +4,7 @@ const Tech = () => {
    return (
       <div className="container mb-5">
          <h2 className="mb-3">Technologies</h2>
-         <ul id="contact" className="list-inline d-flex justify-content-center">
+         <ul id="contact" className="list-inline d-flex justify-content-center container flex-wrap">
             <li className="list-inline-item tech"><i className="fab fa-git fa-3x"></i></li>
             <li className="list-inline-item tech"><i className="fab fa-html5 fa-3x"></i></li>
             <li className="list-inline-item tech"><i className="fab fa-css3-alt fa-3x"></i></li>

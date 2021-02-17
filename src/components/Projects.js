@@ -7,10 +7,10 @@ const Projects = () => {
 
          <a className="jumbotron jumbotron-fluid bg-prj rounded" href="https://depts.washington.edu/uwtslwebdev/ResourceTracker/">
             <div className="container">
-               <h1 className="display-4 mb-4">ResourceTracker</h1>
+               <h1 className="display-4 mb-4 text-wrap container">Resource Tracker</h1>
                <p className="lead">
-                  SpecLister takes a CSE154 assignment specification and creates a nicely formatted
-                  to-do list of all the assignment which allows the student to track/save their progress.
+                  Resource-Tracker allows students to view the currently available resources 
+                  they can utilize.
                </p>
             </div>
          </a>
@@ -27,9 +27,9 @@ const Projects = () => {
          
          <a className="jumbotron jumbotron-fluid bg-prj rounded" href="http://students.washington.edu/em66/UWTU/">
             <div className="container">
-               <h1 className="display-4 mb-4">UWTutoring</h1>
+               <h1 className="display-4 mb-4 text-wrap">UW Tutoring</h1>
                <p className="lead">
-                  UWTutoring asks a new student what classes they are having trouble with and gives a
+                  UW-Tutoring asks a new student what classes they are having trouble with and gives a
                   list of all the on-campus tutoring centers that specialize in that subject.
                </p>
             </div>

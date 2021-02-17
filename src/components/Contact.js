@@ -17,7 +17,7 @@ const Contact = () => {
             </li>
             <li className="list-inline-item">
                <a href="https://www.linkedin.com/in/m00ny0z/">
-                  <i class="contact fab fa-linkedin fa-5x"></i>
+                  <i className="contact fab fa-linkedin fa-5x"></i>
                </a>
             </li>
          </ul>

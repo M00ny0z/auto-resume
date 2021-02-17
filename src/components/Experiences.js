@@ -11,12 +11,16 @@ const Experiences = () => {
                   <div className="card-body">
                      <div className="d-flex flex-column justify-content-between">
                         <h5 className="card-title">Software Engineer Intern</h5>
-                        <h6 className="card-subtitle mb-3 border-bottom border-white border-5">Oracle Cloud Infrastructure</h6>
+                        <h6 className="card-subtitle mb-3 border-bottom border-white border-5">
+                           Oracle Cloud Infrastructure
+                        </h6>
                      </div>
                      <p className="card-text">
-                        Developed infrastructure (Scripts/Websites) for the class as necessary.
-                        Lead a bi-weekly class going in-depth into lecture material.
-                        Helped create new material for the class as necessary.
+                        Used Terraform, Java, and Golang to automate OCI cloud compute instance 
+                        health alarms and monitoring
+                     </p>
+                     <p className="card-text">
+                        Used Grafana to display compute instance health status and usage data
                      </p>
                   </div>
                </div>
@@ -25,7 +29,9 @@ const Experiences = () => {
                   <div className="card-body">
                      <div className="d-flex flex-column justify-content-between">
                         <h5 className="card-title">Software Engineer Intern</h5>
-                        <h6 className="card-subtitle mb-3 border-bottom border-white border-5">Namatad Inc.</h6>
+                        <h6 className="card-subtitle mb-3 border-bottom border-white border-5">
+                           Namatad Inc.
+                        </h6>
                      </div>
                      <p className="card-text">
                         Developed a marketing site using Gatsby to showcase company information 
@@ -39,7 +45,7 @@ const Experiences = () => {
                      </p>
 
                      <p className="card-text">
-                        Build and developed overall project infrastructure utilizing AWS Lambda, 
+                        Built and developed overall project infrastructure utilizing AWS Lambda, 
                         Amplify, and S3 focusing on low-cost and auto-scaling.
                      </p>
                   </div>
