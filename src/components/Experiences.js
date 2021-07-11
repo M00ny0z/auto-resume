@@ -4,7 +4,19 @@ const Experiences = () => {
    return (
       <div className="container mb-5" id="experiences">
             <h2 className="mb-3">Previous Experiences</h2>
-            <div className="d-flex flex-row flex-wrap justify-content-around">
+            <div className="d-flex flex-row flex-wrap justify-content-around">               
+               
+               <div className="card mb-4 bg-exp" style={{width: '18rem'}}>
+                  <div className="card-body">
+                     <h5 className="card-title">Bioinformatics Research Intern</h5>
+                     <h6 className="card-subtitle mb-3 border-bottom border-white border-5">
+                        Statistical Physics of Evolving Systems Lab
+                     </h6>
+                     <p className="card-text">
+                        Ran Data Analysis on gene sequencing of HIV-1 patients to study long-term B-cell response
+                     </p>
+                  </div>
+               </div>
 
                <div className="card mb-4 bg-exp" style={{width: '18rem'}}>
                   <div className="card-body">
@@ -96,22 +108,6 @@ const Experiences = () => {
                      </h6>
                      <p className="card-text">
                         Mentored youth and tought basic CS principles through robotics
-                     </p>
-                  </div>
-               </div>
-
-               <div className="card mb-4 bg-exp" style={{width: '18rem'}}>
-                  <div className="card-body">
-                     <h5 className="card-title">Student Advisory Board Member</h5>
-                     <h6 className="card-subtitle mb-3 border-bottom border-white border-5">
-                        Housing & Food Services (UW)
-                     </h6>
-                     <p className="card-text">
-                        Identify student concerns with the university food system. 
-                     </p>
-                     <p className="card-text">
-                        Collaborated with administration to create viable solutions to identified 
-                        concerns.
                      </p>
                   </div>
                </div>
